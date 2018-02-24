@@ -1,0 +1,53 @@
+html {
+     height: 100%; /* makes sure our HTML takes up 100% of the browser window */
+     font-size: 100%;
+ }
+
+ body {
+     font-family: 'Open Sans'; /* sets our font to the "Open Sans" typeface */
+     color: white;             /* sets the text color to white */
+     min-height: 100%;        /* says the height of the body must be, at minimum, 100% of the window */
+     margin-left: 6rem;
+
+ }
+
+
+ body.landing {
+     background-color: rgb(177, 200, 237); /* sets the background color to an RGB value (see below) */
+ }
+
+.navbar .logo {
+  position: relative; /* positioning will be explained in a resource */
+
+
+ }
+ .navbar .links-container {
+   position: relative;
+   display: table;
+   top: 0;
+   right: 0;
+   height: 100px;
+   width: 90%;
+   color: white;
+   text-decoration: none;
+     background-color:rgb(45, 82, 142);
+
+ }
+ .navbar .nav1, .nav2, .nav3{
+   display: table-cell;
+   color: rgb(1, 19, 48);
+   font-size: 2rem;
+   font-family: cursive;
+  text-align: center;
+
+  padding-left: 1rem;
+   padding-right: 10rem;
+   height: 1px;
+   outline-color: inherit;
+ }
+.herocontent{
+  color:rgb(1, 19, 48);
+}
+.gridContainer >*{
+  color:rgb(1, 19, 48);
+}
